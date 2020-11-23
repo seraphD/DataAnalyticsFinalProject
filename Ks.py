@@ -1,15 +1,18 @@
 class Ks:
     name = ""
     category = ""
-    mainCategory = ""
+    bigCategory = ""
     day = 0
     goal = 0
+    pleged = 0
     state = True
     
-    def __init__(self, name, category, mainCategory, day, goal, state):
+    def __init__(self, name, category, bigCategory, day, goal, pleged, backers, state):
         self.name = name
         self.category = category
-        self.mainCategoty = mainCategory
+        self.bigCategory = bigCategory
         self.day = day
         self.goal = goal
         self.state = state
+        self.pleged = pleged
+        self.backers = backers
